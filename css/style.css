@@ -85,7 +85,7 @@ th {
   margin: auto;
 }
 
-.header {
+.gl-header {
   height: 140px;
 
 }
@@ -95,31 +95,29 @@ th {
   height: 65px;
 }
 
-hedaer ul{
+.gl-hedaer ul{
   display: flex;
   justify-content: center;
 }
 
-hedaer ul li{
- width: 25%;
+.gl-hedaer ul li{
+  width: 25%;
+}
+
+.gl-footer{
+  text-align: center;
 }
 
 /*-------------------------
 トップ_キャッチ
 -------------------------*/
-.top-welcome {
+.top {
   height: 640px;
 }
 
-.top-parent {
-  position: relative;
-}
 
 .top-catch {
-  position: absolute;
-  top: 0;
-  left: -220px;
-  padding: 100px 0 0 220px;
+  text-align: center;
   height: 640px;
 }
 
@@ -136,7 +134,7 @@ hedaer ul li{
 }
 
 .top-side{
-  float: rihgt;
+  float: right;
   width: 300px;
 }
 

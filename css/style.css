@@ -1,0 +1,146 @@
+@charset "UTF-8";
+
+/*-------------------------
+  初期値
+-------------------------*/
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif;
+  color: #333;
+  font-size: 1.6rem;
+  line-height: 2;
+  font-feature-settings: "palt";
+  text-size-adjust: 100%;
+}
+
+a {
+  text-decoration: none;
+  letter-spacing: 0.15em;
+}
+
+a:link {
+  color: #422;
+  font-weight: bold;
+}
+
+a:visited {
+  color: #333;
+}
+
+:hover {
+  transition: .4s ease-in;
+}
+
+a:hover {
+  color: #933;
+}
+
+em {
+  font-style: normal;
+}
+
+ol,
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table tr:nth-last-of-type(odd) {
+  background-color: #fdfdfd;
+}
+
+th,
+td {
+  border: 1px solid #ccc;
+  padding: 20px;
+}
+
+th {
+  text-align: left;
+  vertical-align: top;
+}
+
+.clearfix::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+
+/*-------------------------
+  グローバル
+-------------------------*/
+.container {
+  max-width: 980px;
+  margin: auto;
+}
+
+.header {
+  height: 140px;
+
+}
+
+.logo {
+  width: 200px;
+  height: 65px;
+}
+
+hedaer ul{
+  display: flex;
+  justify-content: center;
+}
+
+hedaer ul li{
+ width: 25%;
+}
+
+/*-------------------------
+トップ_キャッチ
+-------------------------*/
+.top-welcome {
+  height: 640px;
+}
+
+.top-parent {
+  position: relative;
+}
+
+.top-catch {
+  position: absolute;
+  top: 0;
+  left: -220px;
+  padding: 100px 0 0 220px;
+  height: 640px;
+}
+
+.top-catch h2 {
+}
+
+/*-------------------------
+トップ_メイン
+-------------------------*/
+
+.top-main{
+ float: left;
+ width: 660px;
+}
+
+.top-side{
+  float: rihgt;
+  width: 300px;
+}
+
+.top-time,
+.top-rank {
+  height: 300px;
+}

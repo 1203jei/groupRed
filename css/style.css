@@ -105,7 +105,7 @@ hedaer ul li{
 }
 
 /*-------------------------
-トップ
+トップ_キャッチ
 -------------------------*/
 .top-welcome {
   height: 640px;
@@ -124,4 +124,23 @@ hedaer ul li{
 }
 
 .top-catch h2 {
+}
+
+/*-------------------------
+トップ_メイン
+-------------------------*/
+
+.top-main{
+ float: left;
+ width: 660px;
+}
+
+.top-side{
+  float: rihgt;
+  width: 300px;
+}
+
+.top-time,
+.top-rank {
+  height: 300px;
 }

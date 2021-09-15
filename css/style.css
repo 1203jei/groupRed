@@ -16,6 +16,7 @@ body {
   line-height: 2;
   font-feature-settings: "palt";
   text-size-adjust: 100%;
+  background-image: url("images/ban01.jpg");
 }
 
 a {
